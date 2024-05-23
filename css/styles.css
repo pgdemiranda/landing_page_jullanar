@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} /* usado para aplicar estilização a todos os elementos*/
 
 body {
     font-family: Arial, sans-serif;
@@ -37,10 +37,10 @@ header nav a:hover {
     color: #f4a261;
 }
 
-/*Descrever a função*/
+
 body > *:not(header) {
     padding-top: 60px;
-}
+} /*Tudo o que estiver em body, mas não for header, recebe um espaço adicional acima*/
 
 main {
     flex: 1;
@@ -112,11 +112,6 @@ footer {
     text-align: center;
     padding: 10px 0;
     width: 100%;
-}
-
-footer small, footer sub {
-    display: block;
-    margin: 5px 0;
 }
 
 small, sub {
